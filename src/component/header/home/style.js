@@ -62,4 +62,4 @@ export const Boxbtn = styled.div`
   &:hover {
     transform: scale(102%);
   }
-  `
+  `;

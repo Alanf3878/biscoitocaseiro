@@ -79,8 +79,6 @@ const Container = () => {
         </S.Boxlogin>
       </S.TitleContainer>
     </div>
-
-
   );
 };
 
