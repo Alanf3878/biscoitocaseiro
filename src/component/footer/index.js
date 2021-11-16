@@ -83,11 +83,11 @@ const Footer = () => {
   return (
     <div>
       <S.Container>
-        <S.Boxcontainer>
-          <p>{store}</p>
-          <p>{faq}</p>
-          <p>{about}</p>
-        </S.Boxcontainer>
+        <S.Navfooter>
+       <b><a href="#">{store}</a></b>  
+       <b><a href="#">{faq}</a></b> 
+       <b><a href="#">{about}</a></b>  
+        </S.Navfooter>
         <S.Boxcontainer>
           <p>{schedule}</p>
           <p>{week}</p>
@@ -99,11 +99,17 @@ const Footer = () => {
         <S.Containerimg>
           <p>{payments}</p>
           <S.Boxitem>
+            <S.Item>
             <img src={ticket.url} />
             <img src={visa.url} />
             <img src={mastercard.url} />
+            </S.Item>
+            <S.Itempay>
             <img src={mercadopago.url} />
             <img src={pix.url} />
+
+            </S.Itempay>
+            
           </S.Boxitem>
         </S.Containerimg>
         <S.Containerinput>
@@ -117,11 +123,17 @@ const Footer = () => {
         <S.Boxcontainer>
           <p>{social}</p>
           <S.Soci>
-            <img src={icontelegram.url} />
-            <img src={iconface.url} />
-            <img src={iconinsta.url} />
-            <img src={icontub.url} />
-            <img src={icontwitter.url} />
+            <div>
+            <img href="#" id="icon" src={icontelegram.url} />
+            <img href="#" id="icon" src={iconface.url} />
+            <img href="#" id="icon" src={iconinsta.url} />
+            </div>
+            <div>
+            <img href="#" id="icon" src={icontub.url} />
+            <img href="#" id="icon" src={icontwitter.url} />
+
+            </div>
+           
           </S.Soci>
         </S.Boxcontainer>
         <S.Copyright>

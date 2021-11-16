@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 export const Boxcontainer = styled.div`
   width: 11%;
-  height: 100%;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -24,14 +24,16 @@ export const Boxcontainer = styled.div`
 
 export const Boxitem = styled.div`
   display: flex;
-  width: 90%;
-  height: 50%;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Containerimg = styled.div`
-  width: 15%;
+  width: 20%;
+  height: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -42,15 +44,15 @@ export const Containerimg = styled.div`
 `;
 
 export const Containerinput = styled.div`
-  width: 10%;
+  width: 15%;
   text-align: center;
-  height: 95%;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 
   button {
-    width: 95%;
+    width: 162px;
     border: none;
     outline: none;
     background-color: #e157ce;
@@ -61,19 +63,47 @@ export const Containerinput = styled.div`
 `;
 
 export const Soci = styled.div`
+  height: 40%;
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  img {
+    width: 25px;
+    height: 25px;
+  }
 `;
 
 export const Copyright = styled.div`
   width: 20%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  content-visibility: auto;
+
+  b {
+    font-size: 8px;
+  }
+`;
+
+export const Navfooter = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
-  b {
-    font-size: 10px;
-  }
+  align-items: center;
+  width: 5%;
+`;
+export const Item = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+`;
+export const Itempay = styled.div`
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 `;
