@@ -84,9 +84,15 @@ const Footer = () => {
     <div>
       <S.Container>
         <S.Navfooter>
-       <b><a href="#">{store}</a></b>  
-       <b><a href="#">{faq}</a></b> 
-       <b><a href="#">{about}</a></b>  
+          <b>
+            <a href="#">{store}</a>
+          </b>
+          <b>
+            <a href="#">{faq}</a>
+          </b>
+          <b>
+            <a href="#">{about}</a>
+          </b>
         </S.Navfooter>
         <S.Boxcontainer>
           <p>{schedule}</p>
@@ -100,16 +106,14 @@ const Footer = () => {
           <p>{payments}</p>
           <S.Boxitem>
             <S.Item>
-            <img src={ticket.url} />
-            <img src={visa.url} />
-            <img src={mastercard.url} />
+              <img src={ticket.url} />
+              <img src={visa.url} />
+              <img src={mastercard.url} />
             </S.Item>
             <S.Itempay>
-            <img src={mercadopago.url} />
-            <img src={pix.url} />
-
+              <img src={mercadopago.url} />
+              <img src={pix.url} />
             </S.Itempay>
-            
           </S.Boxitem>
         </S.Containerimg>
         <S.Containerinput>
@@ -123,17 +127,15 @@ const Footer = () => {
         <S.Boxcontainer>
           <p>{social}</p>
           <S.Soci>
-            <div>
-            <img href="#" id="icon" src={icontelegram.url} />
-            <img href="#" id="icon" src={iconface.url} />
-            <img href="#" id="icon" src={iconinsta.url} />
-            </div>
-            <div>
-            <img href="#" id="icon" src={icontub.url} />
-            <img href="#" id="icon" src={icontwitter.url} />
-
-            </div>
-           
+            <S.Boxface>
+              <img href="#" id="icon" src={icontelegram.url} />
+              <img href="#" id="icon" src={iconface.url} />
+              <img href="#" id="icon" src={iconinsta.url} />
+            </S.Boxface>
+            <S.Boxtube>
+              <img href="#" id="icon" src={icontub.url} />
+              <img href="#" id="icon" src={icontwitter.url} />
+            </S.Boxtube>
           </S.Soci>
         </S.Boxcontainer>
         <S.Copyright>

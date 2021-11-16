@@ -44,7 +44,7 @@ export const Containerimg = styled.div`
 `;
 
 export const Containerinput = styled.div`
-  width: 15%;
+  width: 162px;
   text-align: center;
   height: 150px;
   display: flex;
@@ -66,13 +66,8 @@ export const Soci = styled.div`
   height: 40%;
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  img {
-    width: 25px;
-    height: 25px;
-  }
 `;
 
 export const Copyright = styled.div`
@@ -82,8 +77,6 @@ export const Copyright = styled.div`
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: center;
-  content-visibility: auto;
-
   b {
     font-size: 8px;
   }
@@ -98,7 +91,7 @@ export const Navfooter = styled.div`
   width: 5%;
 `;
 export const Item = styled.div`
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
 `;
@@ -106,4 +99,19 @@ export const Itempay = styled.div`
   width: 50%;
   display: flex;
   justify-content: space-around;
+`;
+
+export const Boxface = styled.div`
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+`;
+export const Boxtube = styled.div`
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1px;
 `;
