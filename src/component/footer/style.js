@@ -6,12 +6,12 @@ export const Container = styled.div`
   height: 20vh;
   display: flex;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 1rem;
   margin-top: 35px;
 `;
 export const Boxcontainer = styled.div`
-  width: 11%;
+  width: 160px;
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -89,6 +89,10 @@ export const Navfooter = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 5%;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 `;
 export const Item = styled.div`
   width: 70%;
