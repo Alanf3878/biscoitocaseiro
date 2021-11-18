@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import * as S from "./style";
 import Grid from "./grid";
+import Bestsellers from "./bestsellers";
 
 const Main = () => {
   const data = useStaticQuery(graphql`
@@ -40,7 +41,8 @@ const Main = () => {
     subtitle,
   } = data.alldata.mains[0];
   return (
-    <div>
+    <S.Main>
+      <Bestsellers/>
       <S.Container>
         <S.Title>
           <p>{title}</p>
@@ -72,7 +74,7 @@ const Main = () => {
         </S.LineSubtitle>
       </S.Container>
       <Grid />
-    </div>
+    </S.Main>
   );
 };
 export default Main;

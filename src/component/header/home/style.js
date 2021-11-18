@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-image: url(${(props) => props.back});
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 90%;
   height: 50vh;

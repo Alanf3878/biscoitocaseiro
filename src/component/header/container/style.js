@@ -16,6 +16,15 @@ width: 40%;
     transform: scale(102%);
     cursor: pointer;
   }
+
+  
+}
+
+p {
+  font-size: 16px;
+  @media (max-width: 1200px) {
+    font-size: 12px;
+  }
 `
 
 export const TitleContainer = styled.div`
@@ -29,9 +38,9 @@ height: 80px;
 
 export const Boxinput = styled.div`
 display: flex;
-width: 20%;
+width: auto;
 background-color: #FFF; 
-padding: 3px 0.2em 0 0.6em;
+padding: 4px 2em 0 0.6em;
 border-radius: 50px;
 height: 35px;
 &:hover {
@@ -44,6 +53,7 @@ height: 35px;
 export const Input = styled.input`
 border: none;
 outline: none;
+width: auto;
 `
 
 export const Boxlogin = styled.div `
@@ -69,6 +79,13 @@ export const FlexContainer = styled.section`
 width: 24%;
 display: flex;
 justify-content: flex-end;
+p {
+  font-size: 16px;
+
+  @media (max-width: 1200px) {
+    font-size: 10px;
+  }
+}
 `
 
 export const Containerbox = styled.div`
@@ -86,4 +103,5 @@ justify-content: center;
 export const Title = styled.h1`
 font-family: 'Fredoka One';
 font-size: 40px;
+
 `

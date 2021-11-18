@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   display: flex;
-  height: 500px;
+  height: 50vh;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
@@ -26,7 +26,6 @@ export const Title = styled.div`
 
 export const Boxitem = styled.div`
   width: 20vw;
-  height: 40vh;
   display: flex;
   padding: 2rem;
   flex-direction: column;
@@ -73,3 +72,8 @@ export const Boxline = styled.div`
   justify-content: center;
   background-color: black;
 `;
+
+export const Main = styled.div`
+width: 100%;
+height: auto;
+`
