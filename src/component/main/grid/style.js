@@ -33,9 +33,13 @@ export const Img = styled.img`
   @media (max-width: 1565px) {
   width: 300px;
 }
+ @media (max-width: 1335px) {
+  width: 250px;
+}
 @media (max-width: 1335px) {
   width: 250px;
 }
+
 `;
 export const Subtitle = styled.div`
   width: 200px;
