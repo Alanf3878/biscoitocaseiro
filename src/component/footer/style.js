@@ -78,7 +78,7 @@ export const Copyright = styled.div`
   align-content: space-around;
   justify-content: center;
   b {
-    font-size: 8px;
+    font-size: 4px;
   }
 `;
 

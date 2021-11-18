@@ -6,4 +6,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
+  /* max-width: 1366px;
+  width: 100%; */
+
 }

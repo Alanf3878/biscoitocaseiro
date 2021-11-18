@@ -63,7 +63,9 @@ const Home = () => {
         </div>
       </S.Container>
       <S.Containerbox>
-        <img src={imgbag.url} />
+        <S.Box style={{border: '0'}}>
+          <img src={imgbag.url} />
+        </S.Box>
         <S.Box>
           <img src={icondelivery.url} />
           <S.Itembox>

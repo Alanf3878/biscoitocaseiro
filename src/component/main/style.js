@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   display: flex;
-  height: 60vh;
+  height: 500px;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
@@ -34,6 +34,9 @@ export const Boxitem = styled.div`
   justify-content: space-around;
   img {
     width: 320px;
+    @media (max-width: 1335px) {
+  width: 250px;
+}
   }
 `;
 
@@ -56,7 +59,7 @@ export const Subtitle = styled.div`
 `;
 
 export const LineSubtitle = styled.div`
-  height: 250px;
+  height: 50px;
   width: 100%;
   display: flex;
   justify-content: center;

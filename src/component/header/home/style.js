@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-image: url(${(props) => props.back});
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 90%;
   height: 50vh;
@@ -29,20 +29,32 @@ export const Paragraph = styled.p`
 
 export const Containerbox = styled.div`
   display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  width: 95%;
-  height: 20%;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
   cursor: pointer;
+  margin: 3rem 0;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    
+  }
 `;
 export const Box = styled.div`
-  align-items: flex-end;
-  width: 400px;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 15vh;
   border-left: solid 2px black;
   &:hover {
     transform: scale(102%);
+  }
+
+  @media (max-width: 1440px) {
+    border: 0;
+    margin: 2rem 0;
   }
 `;
 export const Itembox = styled.div`
@@ -63,3 +75,7 @@ export const Boxbtn = styled.div`
     transform: scale(102%);
   }
   `;
+
+export const Boxtitle = styled.div`
+width: 100%;
+`

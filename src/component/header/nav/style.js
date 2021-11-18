@@ -6,7 +6,7 @@ export const Nav = styled.ul`
   justify-content: space-evenly;
 `;
 export const Container = styled.div`
-  width: 95%;
+  width: 100%;
   height: 80px;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ export const Container = styled.div`
 export const ItemNav = styled.li`
   list-style: none;
   &:hover {
-    transform: scale(102%);
+    transform: scale(100%);
     cursor: pointer;
   }
 `;
